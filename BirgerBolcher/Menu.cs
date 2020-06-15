@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BirgerBolcher
@@ -20,71 +13,71 @@ namespace BirgerBolcher
         private void VisAltBolcheInfo_Click(object sender, EventArgs e)
         {
             var nextform = new VisAlt();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void RanCandyBtn_Click(object sender, EventArgs e)
         {
             var nextform = new RandomCandy();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void NameRedBlueBtn_Click(object sender, EventArgs e)
         {
             var nextform = new RedBlueCanndy();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void NameRedCandyBtn_Click(object sender, EventArgs e)
         {
             var nextform = new RedCandy();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void NotRedBtn_Click(object sender, EventArgs e)
         {
             var nextform = new NotRedCandy();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void CandyBStartBtn_Click(object sender, EventArgs e)
         {
             var nextform = new BStartCandy();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void CandyWithEBtn_Click(object sender, EventArgs e)
         {
             var nextform = new CandyWithE();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void MinTenBtn_Click(object sender, EventArgs e)
         {
             var nextform = new MinTen();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void CandyTenToTwelveBtn_Click(object sender, EventArgs e)
         {
             var nextform = new TenTwelveCandy();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
 
         private void HeavyCandyBtn_Click(object sender, EventArgs e)
         {
             var nextform = new HeavyCandy();
-            nextform.Show();
-            Hide();
+            nextform.ShowDialog();
+            nextform.Close();
         }
     }
 }

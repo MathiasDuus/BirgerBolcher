@@ -42,9 +42,7 @@ namespace BirgerBolcher
 
         private void NotRedCandyBackBtn_Click(object sender, EventArgs e)
         {
-            var nextform = new Menu();
-            nextform.Show();
-            Hide();
+            this.Dispose();
         }
     }
 }

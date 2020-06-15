@@ -40,6 +40,7 @@
             // 
             // ShowAllBackBtn
             // 
+            this.ShowAllBackBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.ShowAllBackBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
             this.ShowAllBackBtn.Location = new System.Drawing.Point(12, 12);
             this.ShowAllBackBtn.Name = "ShowAllBackBtn";

@@ -20,9 +20,7 @@ namespace BirgerBolcher
 
         private void TenTwelveCandyBackBtn_Click(object sender, EventArgs e)
         {
-            var nextform = new Menu();
-            nextform.Show();
-            Hide();
+            this.Dispose();
         }
 
         private void TenTwelveCandy_Load(object sender, EventArgs e)

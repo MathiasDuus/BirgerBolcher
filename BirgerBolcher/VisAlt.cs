@@ -47,18 +47,12 @@ namespace BirgerBolcher
             sqlDa.Fill(sqltbl);
 
             DGVVisAlt.DataSource = sqltbl;
-
-
-
-
             cnn.Close();
         }
 
         private void ShowAllBackBtn_Click(object sender, EventArgs e)
         {
-            var nextform = new Menu();
-            nextform.Show();
-            Hide();
+            this.Dispose();
         }
     }
 }

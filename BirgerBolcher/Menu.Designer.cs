@@ -42,6 +42,7 @@
             // 
             // ShowAllCandyInfoBtn
             // 
+            this.ShowAllCandyInfoBtn.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.ShowAllCandyInfoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
             this.ShowAllCandyInfoBtn.Location = new System.Drawing.Point(12, 61);
             this.ShowAllCandyInfoBtn.Name = "ShowAllCandyInfoBtn";
